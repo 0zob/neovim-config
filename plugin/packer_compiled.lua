@@ -116,13 +116,18 @@ _G.packer_plugins = {
     path = "/home/enzotorr/.local/share/nvim/site/pack/packer/start/dalton-vim",
     url = "https://github.com/edersonferreira/dalton-vim"
   },
+  ["dashboard-nvim"] = {
+    loaded = true,
+    path = "/home/enzotorr/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
+    url = "https://github.com/glepnir/dashboard-nvim"
+  },
   ["emmet-vim"] = {
     loaded = true,
     path = "/home/enzotorr/.local/share/nvim/site/pack/packer/start/emmet-vim",
     url = "https://github.com/mattn/emmet-vim"
   },
   ["indent-blankline.nvim"] = {
-    config = { "\27LJ\1\2\\\0\0\2\0\4\0\a4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\3\0>\0\2\1G\0\1\0\1\0\1\25space_char_blankline\6 \nsetup\21indent_blankline\frequire\0" },
+    config = { "\27LJ\1\2‘\2\0\0\3\0\b\0\v4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\3\0003\2\4\0:\2\5\0013\2\6\0:\2\a\1>\0\2\1G\0\1\0\20buftype_exclude\1\2\0\0\rterminal\21filetype_exclude\1\t\0\0\thelp\rterminal\14dashboard\vpacker\flspinfo\20TelescopePrompt\21TelescopeResults\22nvchad_cheatsheet\1\0\2\25space_char_blankline\6 \28show_first_indent_level\1\nsetup\21indent_blankline\frequire\0" },
     loaded = true,
     path = "/home/enzotorr/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
@@ -237,7 +242,7 @@ try_loadstring("\27LJ\1\2<\0\0\2\0\3\0\a4\0\0\0%\1\1\0>\0\2\0027\0\2\0002\1\0\0>
 time([[Config for bufferline.nvim]], false)
 -- Config for: indent-blankline.nvim
 time([[Config for indent-blankline.nvim]], true)
-try_loadstring("\27LJ\1\2\\\0\0\2\0\4\0\a4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\3\0>\0\2\1G\0\1\0\1\0\1\25space_char_blankline\6 \nsetup\21indent_blankline\frequire\0", "config", "indent-blankline.nvim")
+try_loadstring("\27LJ\1\2‘\2\0\0\3\0\b\0\v4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\3\0003\2\4\0:\2\5\0013\2\6\0:\2\a\1>\0\2\1G\0\1\0\20buftype_exclude\1\2\0\0\rterminal\21filetype_exclude\1\t\0\0\thelp\rterminal\14dashboard\vpacker\flspinfo\20TelescopePrompt\21TelescopeResults\22nvchad_cheatsheet\1\0\2\25space_char_blankline\6 \28show_first_indent_level\1\nsetup\21indent_blankline\frequire\0", "config", "indent-blankline.nvim")
 time([[Config for indent-blankline.nvim]], false)
 -- Config for: Comment.nvim
 time([[Config for Comment.nvim]], true)

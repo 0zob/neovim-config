@@ -62,7 +62,20 @@ use {
 use {
     "lukas-reineke/indent-blankline.nvim",
     config = function() require("indent_blankline").setup{
-        space_char_blankline = " "
+        space_char_blankline = " ",
+        show_first_indent_level = false,
+        filetype_exclude = {
+         "help",
+         "terminal",
+         "dashboard",
+         "packer",
+         "lspinfo",
+         "TelescopePrompt",
+         "TelescopeResults",
+         "nvchad_cheatsheet",
+      },
+      buftype_exclude = { "terminal" },
+
     } end
     
 }
@@ -96,6 +109,8 @@ use {
         }
     } end 
 }
+
+use 'glepnir/dashboard-nvim'
 
 end)
 
