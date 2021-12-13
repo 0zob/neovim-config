@@ -112,5 +112,7 @@ use {
 
 use 'glepnir/dashboard-nvim'
 
+use 'sainnhe/gruvbox-material'
+use 'RRethy/vim-illuminate'
 end)
 

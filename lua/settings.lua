@@ -33,3 +33,4 @@ vim.g.dashboard_custom_header = {
 }
 
 
+vim.o.background = "dark"
