@@ -1,9 +1,11 @@
 vim.cmd [[packadd packer.nvim]]
 
-
 return require('packer').startup(function()
+
 use 'wbthomason/packer.nvim'
+
 use 'neovim/nvim-lspconfig'
+
 use {'hrsh7th/nvim-cmp',
 requires = {
     {'hrsh7th/cmp-nvim-lsp'},
@@ -14,11 +16,17 @@ requires = {
     {'hrsh7th/vim-vsnip'}
     }
 }
+
 use 'edersonferreira/dalton-vim'
+
 use 'folke/lsp-colors.nvim'
+
 use 'tpope/vim-surround'
+
 use 'tpope/vim-fugitive'
+
 use 'mattn/emmet-vim'
+
 use {
   'nvim-telescope/telescope.nvim',
   requires = { {'nvim-lua/plenary.nvim'} }
@@ -27,21 +35,16 @@ use {
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
     }
+
 use 'andweeb/presence.nvim'
+
 use {
     'numToStr/Comment.nvim',
     config = function()
         require('Comment').setup()
     end
 }
--- use {
---   'glepnir/galaxyline.nvim',
---     branch = 'main',
---     -- your statusline
---     config = function() require'status-line' end,
---     -- some optional icons
---     requires = {'kyazdani42/nvim-web-devicons', opt = true}
--- }
+
 use {
     'kyazdani42/nvim-tree.lua',
     requires = {
@@ -49,11 +52,13 @@ use {
     },
     config = function() require'nvim-tree'.setup {} end
 }
+
 use {
     'akinsho/bufferline.nvim', 
     requires = 'kyazdani42/nvim-web-devicons',
     config = function() require("bufferline").setup{} end
 }
+
 use {
     "lukas-reineke/indent-blankline.nvim",
     config = function() require("indent_blankline").setup{
@@ -61,7 +66,9 @@ use {
     } end
     
 }
+
 use 'jiangmiao/auto-pairs'
+
 use {
     "akinsho/toggleterm.nvim",
     config = function() require("toggleterm").setup{
@@ -70,12 +77,14 @@ use {
         direction = 'horizontal',
     } end 
 }
+
 use {
     "ray-x/lsp_signature.nvim",
     config = function() require "lsp_signature".setup{
         hint_prefix = "👾 ",
   } end
 }
+
 use {'folke/tokyonight.nvim'}
 
 use {
@@ -87,5 +96,6 @@ use {
         }
     } end 
 }
+
 end)
 
