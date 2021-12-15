@@ -30,7 +30,7 @@ mapping = {
   }),
   -- Accept currently selected item. If none selected, `select` first item.
   -- Set `select` to `false` to only confirm explicitly selected items.
-  ['<CR>'] = cmp.mapping.confirm({ select = false }),
+  ['<CR>'] = cmp.mapping.confirm({select = true}),
   ["<Tab>"] = cmp.mapping(function(fallback)
   if cmp.visible() then
     cmp.select_next_item()
@@ -61,7 +61,6 @@ sources = cmp.config.sources({
   { name = 'buffer' },
 })
 })
-
 -- Use buffer source for `/` (if you enabled `native_menu`, this won't work anymore).
 cmp.setup.cmdline('/', {
 sources = {
@@ -96,4 +95,3 @@ require'lspconfig'.cssls.setup {
     capabilities = capabilities,
     cmd = { "/home/enzotorr/.npm-global/lib/node_modules/vscode-langservers-extracted/bin/vscode-css-language-server", "--stdio" }
 }
-
