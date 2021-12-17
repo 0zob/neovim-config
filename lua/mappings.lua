@@ -32,4 +32,5 @@ imap("<C-h>", "<left>")
 imap("<C-l>", "<right>")
 imap("<C-j>", "<down>")
 imap("<C-k>", "<up>")
+nmap("<F3>", ":bdelete<cr>")
 
