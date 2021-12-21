@@ -120,5 +120,7 @@ use 'glepnir/dashboard-nvim'
 
 use 'sainnhe/gruvbox-material'
 
+use 'fedepujol/move.nvim'
+
 end)
 

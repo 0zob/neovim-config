@@ -149,6 +149,11 @@ _G.packer_plugins = {
     path = "/home/enzotorr/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["move.nvim"] = {
+    loaded = true,
+    path = "/home/enzotorr/.local/share/nvim/site/pack/packer/start/move.nvim",
+    url = "https://github.com/fedepujol/move.nvim"
+  },
   ["nvim-autopairs"] = {
     config = { "\27LJ\1\2t\0\0\3\0\6\0\t4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\4\0003\2\3\0:\2\5\1>\0\2\1G\0\1\0\21disable_filetype\1\0\0\1\3\0\0\20TelescopePrompt\bvim\nsetup\19nvim-autopairs\frequire\0" },
     loaded = true,
