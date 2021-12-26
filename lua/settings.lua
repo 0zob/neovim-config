@@ -1,4 +1,5 @@
 vim.g.mapleader = ','
+vim.g.mouse = 'a'
 vim.o.number = true
 vim.o.termguicolors = true
 vim.o.splitright = true

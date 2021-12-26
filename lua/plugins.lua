@@ -122,5 +122,7 @@ use 'sainnhe/gruvbox-material'
 
 use 'fedepujol/move.nvim'
 
+use "rebelot/kanagawa.nvim"
+
 end)
 

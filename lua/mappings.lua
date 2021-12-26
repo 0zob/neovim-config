@@ -33,6 +33,12 @@ imap("<C-l>", "<right>")
 imap("<C-j>", "<down>")
 imap("<C-k>", "<up>")
 nmap("<F3>", ":bdelete<cr>")
+nmap("<cr>", "o<esc>")
+
+
+
+
+
 
 -- mapping for move.nvim
 
