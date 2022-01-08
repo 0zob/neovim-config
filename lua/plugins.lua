@@ -126,5 +126,7 @@ use "rebelot/kanagawa.nvim"
 
 use "sheerun/vim-polyglot"
 
+use 'andweeb/presence.nvim'
+
 end)
 
