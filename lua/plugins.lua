@@ -124,5 +124,7 @@ use 'fedepujol/move.nvim'
 
 use "rebelot/kanagawa.nvim"
 
+use "sheerun/vim-polyglot"
+
 end)
 
