@@ -29,7 +29,10 @@ use 'mattn/emmet-vim'
 
 use {
   'nvim-telescope/telescope.nvim',
-  requires = { {'nvim-lua/plenary.nvim'} }
+  requires = { 
+      {'nvim-lua/plenary.nvim'},
+      {'sharkdp/fd'},
+  }
 }
     use {
         'nvim-treesitter/nvim-treesitter',
