@@ -237,6 +237,11 @@ _G.packer_plugins = {
     path = "/home/enzotorr/.local/share/nvim/site/pack/packer/start/vim-polyglot",
     url = "https://github.com/sheerun/vim-polyglot"
   },
+  ["vim-startuptime"] = {
+    loaded = true,
+    path = "/home/enzotorr/.local/share/nvim/site/pack/packer/start/vim-startuptime",
+    url = "https://github.com/dstein64/vim-startuptime"
+  },
   ["vim-surround"] = {
     loaded = true,
     path = "/home/enzotorr/.local/share/nvim/site/pack/packer/start/vim-surround",

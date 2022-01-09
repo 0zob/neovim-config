@@ -131,5 +131,6 @@ use "sheerun/vim-polyglot"
 
 use 'andweeb/presence.nvim'
 
+use 'dstein64/vim-startuptime'
 end)
 
