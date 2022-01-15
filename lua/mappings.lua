@@ -34,6 +34,7 @@ imap("<C-j>", "<down>")
 imap("<C-k>", "<up>")
 nmap("<F3>", ":bdelete<cr>")
 nmap("<cr>", "o<esc>")
+nmap("<F4>", ":nohlsearch<cr>")
 
 
 
