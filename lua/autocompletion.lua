@@ -89,6 +89,7 @@ require'lspconfig'.jedi_language_server.setup{
 
 require('lspconfig')['html'].setup {
     capabilities = capabilities,
+    filetypes = { "html", "htmldjango" }
     -- cmd = { "/home/enzotorr/.npm-global/lib/node_modules/vscode-langservers-extracted/bin/vscode-html-language-server", "--stdio" }
 }
 require('lspconfig')['denols'].setup {
