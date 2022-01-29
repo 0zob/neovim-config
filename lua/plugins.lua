@@ -132,5 +132,9 @@ use "sheerun/vim-polyglot"
 use 'andweeb/presence.nvim'
 
 use 'dstein64/vim-startuptime'
+
+use "numToStr/FTerm.nvim"
+
+use "numToStr/FTerm.nvim"
 end)
 

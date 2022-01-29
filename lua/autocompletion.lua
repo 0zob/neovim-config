@@ -92,11 +92,13 @@ require('lspconfig')['html'].setup {
     filetypes = { "html", "htmldjango" }
     -- cmd = { "/home/enzotorr/.npm-global/lib/node_modules/vscode-langservers-extracted/bin/vscode-html-language-server", "--stdio" }
 }
-require('lspconfig')['denols'].setup {
-    capabilities = capabilities,
-    cmd = { "/home/enzotorr/.deno/bin/deno", "lsp"}
-}
+-- require('lspconfig')['denols'].setup {
+--     capabilities = capabilities,
+--     cmd = { "/home/enzotorrs/.deno/bin/deno", "lsp"}
+-- }
 require'lspconfig'.cssls.setup {
     capabilities = capabilities,
     -- cmd = { "/home/enzotorr/.npm-global/lib/node_modules/vscode-langservers-extracted/bin/vscode-css-language-server", "--stdio" }
 }
+-- require'lspconfig'.eslint.setup{}
+require'lspconfig'.tsserver.setup{}

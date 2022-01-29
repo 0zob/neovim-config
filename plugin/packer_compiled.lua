@@ -75,6 +75,11 @@ _G.packer_plugins = {
     path = "/home/enzotorrs/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
+  ["FTerm.nvim"] = {
+    loaded = true,
+    path = "/home/enzotorrs/.local/share/nvim/site/pack/packer/start/FTerm.nvim",
+    url = "https://github.com/numToStr/FTerm.nvim"
+  },
   ["bufferline.nvim"] = {
     config = { "\27LJ\1\2<\0\0\2\0\3\0\a4\0\0\0%\1\1\0>\0\2\0027\0\2\0002\1\0\0>\0\2\1G\0\1\0\nsetup\15bufferline\frequire\0" },
     loaded = true,

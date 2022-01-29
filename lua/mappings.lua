@@ -35,10 +35,8 @@ imap("<C-k>", "<up>")
 nmap("<F3>", ":bdelete<cr>")
 nmap("<cr>", "o<esc>")
 nmap("<F4>", ":nohlsearch<cr>")
-
-
-
-
+nmap("<A-i>", ':w<cr> <CMD>lua require("FTerm").toggle()<CR>')
+tmap("<A-i>", '<C-\\><C-n><CMD>lua require("FTerm").toggle()<CR>')
 
 
 -- mapping for move.nvim
