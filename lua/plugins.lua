@@ -136,5 +136,7 @@ use 'dstein64/vim-startuptime'
 use "numToStr/FTerm.nvim"
 
 use "numToStr/FTerm.nvim"
+use { "EdenEast/nightfox.nvim", tag = "v1.0.0" } 
+use "rebelot/kanagawa.nvim"
 end)
 
