@@ -5,7 +5,7 @@ vim.o.termguicolors = true
 vim.o.splitright = true
 vim.o.splitbelow = true
 vim.o.hidden = true
-
+-- JueyLKh9DqibbHFrkd4oxa2Gr4gqz57JFS6ru6oeYAHbxnHHb
 vim.o.tabstop = 4
 vim.o.shiftwidth = 4
 vim.o.expandtab = true
